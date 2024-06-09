@@ -309,6 +309,8 @@ body {
     color: #fff;
 }
 
+
+
 .seafood-box__items {
     display: flex;
     justify-content: space-around;
@@ -380,6 +382,12 @@ body {
     background-image: url(../images/contacts-bg.jpg);
     background-repeat: no-repeat;
     background-position: bottom left;
+}
+
+.container-box {
+    max-width: 1220px;
+    padding: 0 10px;
+    margin: 0 auto;
 }
 
 .contacts__box {
@@ -479,6 +487,12 @@ body {
     display: block;
     height: 4px;
     background-color: #001e64;
+}
+
+@media (max-width: 1185px) {
+    .container-box {
+        padding:0;
+    }
 }
 
 @media (max-width: 1160px) {
