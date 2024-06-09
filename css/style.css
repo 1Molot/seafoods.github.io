@@ -484,6 +484,23 @@ body {
     .product__name {
         width: 350px;
     }
+
+    .footer .logo,
+    .footer .menu {
+        display: none;
+    }
+
+    .footer {
+        padding: 40px 0 40px;
+    }
+
+    .footer__inner {
+        justify-content: center;
+    }
+
+    .footer-social__list {
+        padding-bottom: 0;
+    }
 }
 
 @media (max-width: 1100px) {
@@ -637,11 +654,22 @@ body {
     .seafood-box {
         display: none;
     }
+
     .seafood {
-      padding: 50px 0;
+        padding: 50px 0;
     }
+
     .seafood__items {
         margin-bottom: 50px;
+    }
+
+    .contacts {
+        background-image: none;
+    }
+
+    .contacts__box {
+        width: 100%;
+        padding: 33px 0 33px 0;
     }
 }
 
@@ -686,7 +714,7 @@ body {
     }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 370px) {
     .title {
         /*font-size: 40px;*/
         padding-top: 125px;
