@@ -35,7 +35,9 @@ $(function () {
                     slidesToShow: 3,
                     arrows: false,
                     dots: true,
-                },
+                }
+            },
+            {
                 breakpoint: 461,
                 settings: {
                     vertical: false,
